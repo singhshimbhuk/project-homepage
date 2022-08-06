@@ -1,0 +1,273 @@
+body
+{
+    background: black;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1rem;
+}
+.carousel-control-prev
+{
+top: 110%;
+left: 75%;
+}
+.carousel-control-next
+{
+    top: 110%;
+    left: 79%;
+}
+.carousel-indicators
+{
+    top: 110%;
+    left: -59%;
+}
+.firsttext .p
+{
+    display: inline-block;
+    font-style: italic;
+    font-size: 3rem;
+    padding-left: 21rem;
+    margin-bottom: 2.5rem;
+    font-family: none;
+    
+    padding-top: 2rem;
+}
+.secondtext .p
+{
+    display: inline-block;
+    font-style: italic;
+    font-size: 3rem;
+    padding-left: 0.5rem;
+    font-family: none;
+}
+h1{
+    font-style: italic;
+    font-weight: 400;
+    text-shadow: 0px 16px 30px rgb(0 0 0 / 50%);
+    font-size: 4rem;
+    top: -5%;
+    position: absolute;
+    left: 14%;
+    font-family: none;
+}
+.carousel-indicators [data-bs-target]
+{
+    height: 0.6rem;
+    width: 3rem;
+}
+
+
+/* responsiveness */
+
+
+@media (min-width: 1200px)
+{
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 2.2rem;
+    }
+    .firsttext
+    {
+        padding-left: 12rem;
+        font-size: 2rem;
+        font-style: italic;
+        font-family: none;
+        margin-bottom: 1rem;
+    }
+    .secondtext
+    {
+        font-size: 2rem;
+        font-style: italic;
+        font-family: none;
+        position: absolute;
+        top: 0%;
+       
+    left: 28%;
+
+    }
+    h1
+    {
+        top: -12%;
+
+    }
+    .carousel-indicators [data-bs-target] {
+        height: 0.3rem;
+        width: 2rem;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        
+        height: 1rem;
+        
+    }
+}
+
+
+@media (min-width:907px) and (max-width:1199px)
+{
+    .firsttext
+    {
+        font-size: 1.5rem;
+        font-style: italic;
+        padding-left: 7rem;
+        font-family: none;
+    }
+    .secondtext
+    {
+        font-size: 1rem;
+        font-style: italic;
+        position: absolute;
+    top: 0rem;
+    left: 17rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: none;
+    
+    }
+    h1{
+        position: absolute;
+        font-size: 2.3rem;
+        top: 0rem;
+        left: 8rem;
+    }
+    .carousel-indicators [data-bs-target] {
+        height: 0.3rem;
+        width: 2rem;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon 
+{
+    position: absolute;
+    height: 1rem;
+    top: 45%;
+}
+}
+@media (min-width:656px) and (max-width:906px)
+{
+    .firsttext
+    {
+        font-size: 1.2rem;
+        font-style: italic;
+        padding-left: 5rem;
+        font-family: none;
+    }
+    .secondtext
+    {
+        font-size: 1.2rem;
+        font-style: italic;
+        position: absolute;
+    top: 0rem;
+    left: 13rem;
+ 
+    font-style: italic;
+    font-family: none;
+    
+    }
+    h1{
+        position: absolute;
+        font-size: 2rem;
+        top: -0.4rem;
+        left: 7rem;
+    }
+    .carousel-indicators [data-bs-target] {
+        height: 0.3rem;
+        width: 1rem;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon 
+{
+    position: absolute;
+    height: 1rem;
+    top: 45%;
+}
+}
+@media (min-width:481px) and (max-width:655px)
+{
+    .firsttext
+    {
+        font-size: 0.8rem;
+        font-style: italic;
+        padding-left: 5rem;
+        font-family: none;
+    }
+    .secondtext
+    {
+        font-size: 0.8rem;
+        font-style: italic;
+        position: absolute;
+    top: 0rem;
+    left: 10.5rem;
+ 
+    font-style: italic;
+    font-family: none;
+    
+    }
+    h1 {
+        position: absolute;
+        font-size: 1.5rem;
+        top: 0rem;
+        left: 5rem;
+    }
+    .carousel-indicators [data-bs-target] {
+        height: 0.3rem;
+        width: 1rem;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon 
+{
+    position: absolute;
+    height: 1rem;
+    top: 45%;
+}
+}
+
+
+@media (max-width: 480px)
+{
+    h1{
+        position: absolute;
+        font-size: 1.3rem;
+        top: -0.4rem;
+
+        left: 4rem;
+    }
+    .firsttext
+    {
+        font-size: 1rem;
+        font-style: italic;
+        padding-left: 3rem;
+        font-family: none;
+    }
+    .secondtext
+    {
+        font-size: 1rem;
+        font-style: italic;
+        position: absolute;
+    top: 0rem;
+    left: 9.5rem;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: none;
+    
+    }
+   .carousel-inner
+   {
+    height: 17rem;
+    padding-top: 0.5rem;
+   }
+   .w-75
+   {
+    height: 17rem;
+   }
+   .carousel-indicators [data-bs-target] {
+    height: 0.2rem;
+    width: 0.8rem;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon 
+{
+    position: absolute;
+    height: 1rem;
+    top: 45%;
+}
+}
